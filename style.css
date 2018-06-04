@@ -1,0 +1,355 @@
+
+body{
+      height: auto;
+      width: 100%;
+      background-repeat: no-repeat;
+      margin: 0;
+      padding: 0;
+      text-decoration: none;
+      font-family: 'Noto Sans', sans-serif;
+      background-color: rgba(134, 211, 126, 0.2);
+}
+#overskriftstyleguide{
+  text-align: center;
+  padding: 20px;
+  font-size: 50px;
+}
+.primære h2{
+  text-align: center;
+  font-size: 40px;
+}
+.primære h3{
+  text-align: center;
+  font-size: 20px;
+}
+.sekundære h3{
+  text-align: center;
+  font-size: 20px;
+}
+
+.primære1{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 20px;
+  text-align: center;
+}
+
+.box1farve{
+  background-color: #5db255;
+  width: 200px;
+  height: 200px;
+  margin-right: 10px;
+}
+.box2farve{
+  background-color: #86d37e;
+  width: 200px;
+  height: 200px;
+  margin-left: 20px;
+
+}
+.box3farve{
+  background-color: rgba(134, 211, 126, 0.2);
+  width: 150px;
+  height: 150px;
+  margin-right: 10px;
+  border: 1px solid black;
+}
+.box4farve{
+  background-color: #107107;
+  width: 150px;
+  height: 150px;
+  margin-left: 10px;
+}
+.box5farve{
+  background-color: #90ee90;
+  width: 150px;
+  height: 150px;
+  margin-left: 20px;
+}
+.box6farve{
+  background: linear-gradient(to right, #5db255, #7dc14b, #9fcf40, #c5db32, #ede623);
+  width: 150px;
+  height: 150px;
+  margin-left: 20px;
+}
+
+.overskrifter h2{
+    text-align: center;
+    font-size: 40px;
+}
+.overskrifter1{
+  text-align: center;
+}
+#o1{
+  font-size: 50px;
+  color: #5db255;
+  margin: 2px;
+}
+.overskrifter2 {
+  text-align: center;
+  padding-top: 20px;
+}
+.overskrifter1 p{
+    text-align: center;
+    width: 220px;
+    height: 50px;
+    background-color: #fff;
+    padding: 10px;
+    margin: auto;
+  }
+.overskrifter2 p{
+    text-align: center;
+    width: 220px;
+    height: 50px;
+    background-color: #fff;
+    padding: 10px;
+    margin: auto;
+}
+#o2{
+  font-size: 33px;
+  color: #000;
+  margin: 2px;
+}
+.overskrifter3 p{
+    text-align: center;
+    width: 220px;
+    height: 50px;
+    background-color: #fff;
+    padding: 10px;
+    margin: auto;
+  }
+
+.overskrifter3{
+  text-align: center;
+  padding-top: 20px;
+}
+#o3{
+  font-size: 50px;
+  color: #107107;
+  font-weight: 700;
+  margin: 2px;
+}
+
+.overskrifter4 p{
+    text-align: center;
+    width: 220px;
+    height: 50px;
+    background-color: #fff;
+    padding: 10px;
+    margin: auto;
+  }
+.overskrifter4{
+  text-align: center;
+  padding-top: 20px;
+}
+#o4{
+  font-size: 20px;
+  color: #000;
+  margin: 5px;
+}
+
+.overskrifter5 p{
+    text-align: center;
+    width: 220px;
+    height: 50px;
+    background-color: #fff;
+    padding: 10px;
+    margin: auto;
+  }
+.overskrifter5{
+  text-align: center;
+  padding-bottom: 20px;
+
+}
+#o5{
+  font-size: 33px;
+  color: #fff;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.typografi h2{
+    text-align: center;
+    font-size: 40px;
+}
+#font{
+  text-align: center;
+  font-size: 36rpx;
+}
+#fontkasse{
+  width: 400px;
+  height: 50px;
+  text-align: center;
+  background-color: #fff;
+  margin: auto;
+  padding-top: 4px;
+}
+#font700{
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+}
+#font400{
+  text-align: center;
+  font-size: 28px;
+  font-weight: 400;
+}
+#font4001{
+  width: 300px;
+  height: 40px;
+  text-align: center;
+  background-color: #fff;
+  margin: auto;
+  padding-top: 15px;
+}
+#font7001{
+  width: 300px;
+  height: 40px;
+  text-align: center;
+  background-color: #fff;
+  margin: auto;
+  padding-top: 15px;
+}
+.knap h2{
+  text-align: center;
+  font-size: 40px;
+}
+.btn-primary {
+
+    background-color: #5DB255;
+    color: white;
+    padding: 15px 70px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+    top: 65%;
+    border: 1px solid#5DB255;
+}
+
+.btn-div {
+  width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-primary:hover {
+    background-color: white;
+    color: #5DB255;
+    border: 1px solid#5DB255;
+}
+#button{
+  width: 300px;
+  height: 80px;
+  text-align: center;
+  background-color: #fff;
+  margin: auto;
+  padding-top: 15px;
+}
+.logo h2{
+  text-align: center;
+  font-size: 40px;
+}
+#logo{
+  margin: auto;
+  display: flex;
+  justify-content: center;
+
+}
+#logop1{
+  width: 300px;
+  height: 80px;
+  text-align: center;
+  background-color: #fff;
+  margin: auto;
+  padding-top: 15px;
+}
+#logop2{
+  width: 320px;
+  height: 80px;
+  text-align: center;
+  background-color: #fff;
+  margin: auto;
+  padding-top: 15px;
+}
+
+.ikoner h2{
+  text-align: center;
+  font-size: 40px;
+}
+.ikoner h3{
+  text-align: center;
+}
+.icons{
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+#social{
+  width: 320px;
+  height: 100px;
+  text-align: center;
+  background-color: #fff;
+  margin: auto;
+  padding-top: 15px;
+}
+.icons1{
+display: flex;
+justify-content: center;
+
+}
+.icons1 img{
+  align-self: center;
+}
+.grid h2{
+  text-align: center;
+  font-size: 40px;
+}
+
+.gridbox{
+  width: 600px;
+  height: 720px;
+  border: 2px solid black;
+  margin: auto;
+}
+.gridbox1{
+  width: 500px;
+  height: 100px;
+  background-color: #dbdee0;
+  margin: auto;
+  margin-top: 40px;
+}
+.gridbox2{
+  width: 500px;
+  height: 160px;
+  background-color: #dbdee0;
+  margin: auto;
+  margin-top: 40px;
+}
+.gridbox3{
+  width: 400px;
+  height: 130px;
+  background-color: #dbdee0;
+  margin: auto;
+  margin-top: 40px;
+}
+.gridbox4{
+  width: 500px;
+  height: 120px;
+  background-color: #dbdee0;
+  margin: auto;
+  margin-top: 40px;
+}
+#grid{
+  width: 320px;
+  height: 40px;
+  text-align: center;
+  background-color: #fff;
+  margin: auto;
+  padding-top: 15px;
+}

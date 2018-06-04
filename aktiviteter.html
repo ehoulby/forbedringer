@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Aktiviteter</title>
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,700" rel="stylesheet">
+  <link href="css/master.css" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="12x12" href="assets/images/logovroegum.ico">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <script src="script.js" charset="utf-8"></script>
+</head>
+
+<body id="subpage" onload="datoColor1();datoColor2();datoColor3();">
+  <header>
+    <a href="index.html" id="logo">
+      <img src="assets/images/logovroegum.ico" alt="logo">
+      </a>
+      <nav>
+
+              <ul>
+                    <li><a href="index.html">FORSIDE</a></li>
+                    <li><a class="current" href="aktiviteter.html">BEGIVENHEDER</a></li>
+                    <li><a href="transport.html">TRANSPORT</a></li>
+                    <li><a href="omvroegum.html">OM VRØGUM</a></li>
+                    <li><a href="erhverv.html">ERHVERV</a></li>
+                    <li><a href="#footer">KONTAKT</a></li>
+              </ul>
+      </nav>
+
+
+
+  </header>
+  <main>
+
+    <section class="aktivitetssektion">
+      <div class="inner">
+        <h1 id="aktivitetsoverskrift">DETTE SKER I VRØGUM</h1>
+        <p>I Vrøgum bliver der ofte afholdt arrangementer,
+          lige meget hvad tid på året det er. Når det varmere på året,
+          afholdes forskellige begivenheder såsom Vrøgum Løbet. På de lidt koldere måneder,
+          bliver der inviteret til hygge i form af julehygge og oktoberfest. På denne side finder
+          du en kalender om hvornår de forskellige begivenheder afholdes. Derudover vil du finde informationer
+          om kommende events.
+        </p>
+      </div>
+
+    </section>
+
+    <section class="calender">
+      <h1>BEGIVENHEDSKALENDER</h1>
+      <div class="calender2">
+
+        <div class="month">
+          <h2 id="month">
+              </h2>
+
+          <div id="eventdescription">
+            <div class="button-div" id="button-1">
+              <h1>Vrøgum Løbet</h1>
+              <p>Vrøgum Løbet er en årlig begivenhed der tager start i Ballonparken. Begivenheden er gratis og
+                der er mulighed for at købe mad og drikke når man kommer i mål </p>
+              <button class="btn-secondary" onclick="saveEvent1()">Gem begivenhed </button>
+              <button class="btn-secondary" onclick="deleteEvent1()">Slet begivenhed </button>
+
+            </div>
+
+            <div class="button-div" id="button-2">
+              <h1>En aften med brætspil </h1>
+              <p>Der inviteres til en aften med brætspil, hvor der er mulighed for buffet.</p>
+              <button class="btn-secondary" onclick="saveEvent2()">Gem begivenhed </button>
+              <button class="btn-secondary" onclick="deleteEvent2()">Slet begivenhed </button>
+
+            </div>
+
+            <div class="button-div" id="button-3">
+              <h1>Kom til Vinsmagning</h1>
+              <p>Har du en kærlighed for vin og ønsker du at tilbringe mere tid med dine medbeboere? Så kom til vinsmagning! Biletter kan købes d. 15 Maj</p>
+              <button class="btn-secondary" onclick="saveEvent3()">Gem begivenhed</button>
+              <button class="btn-secondary" onclick="deleteEvent3()">Slet begivenhed </button>
+
+            </div>
+          </div>
+        </div>
+
+        <table>
+          <tr id="ugedage">
+            <th>Man</th>
+            <th>Tirs</th>
+            <th>Ons</th>
+            <th>Tors</th>
+            <th>Fre</th>
+            <th>Lør</th>
+            <th>Søn</th>
+          </tr>
+          <tr>
+            <td class="dato"> </td>
+            <td class="dato" id="1">1</td>
+            <td class="dato" id="2">2</td>
+            <td class="dato" id="3">3</td>
+            <td class="dato" id="4">4</td>
+            <td class="dato" id="5">5</td>
+            <td class="dato" id="6">6</td>
+
+          </tr>
+          <tr>
+            <td class="dato" id="7">7</td>
+            <td class="dato" id="8">8</td>
+            <td class="dato" id="9">9</td>
+            <td class="dato" id="10">10</td>
+            <td class="dato" id="11">11</td>
+            <td class="dato" id="tolv" onclick="showEvent1()">12</td>
+
+            <td class="dato" id="13">13</td>
+          </tr>
+
+          <tr>
+            <td class="dato" id="14">14</td>
+            <td class="dato" id="15">15</td>
+            <td class="dato" id="16">16</td>
+            <td class="dato" id="17">17</td>
+            <td class="dato" id="18">18</td>
+            <td class="dato" id="19">19</td>
+            <td class="dato" id="20">20</td>
+          </tr>
+
+          <tr>
+            <td class="dato" id="enogtyve" onclick="showEvent2()">21</td>
+            <td class="dato" id="22">22</td>
+            <td class="dato" id="23">23</td>
+            <td class="dato" id="24">24</td>
+            <td class="dato" id="25">25</td>
+            <td class="dato" id="26">26</td>
+            <td class="dato" id="27">27</td>
+          </tr>
+
+          <tr>
+            <td class="dato" id="28">28</td>
+            <td class="dato" id="niogtyve" onclick="showEvent3()">29</td>
+            <td class="dato" id="30">30</td>
+            <td class="dato" id="31">31</td>
+
+          </tr>
+        </table>
+
+      </div>
+    </section>
+
+
+    <section class="senesteevents">
+      <div class="">
+        <div class="">
+          <h1>UDVALGTE BEGIVENHEDER</h1>
+        </div>
+
+        <div class="inner-elements">
+          <div class="eventimg">
+            <img src="assets/images/lob.jpg" alt="Vrøgum løb">
+            <p>Vrøgum løbet</p>
+          </div>
+
+          <div class="eventimg">
+            <img src="assets/images/frokost.png" alt="frokost i vroegum">
+            <p>Herre og dame frokost</p>
+          </div>
+
+          <div class="eventimg">
+            <img src="assets/images/spisning.jpg" alt="">
+            <p>Fællespisning</p>
+          </div>
+        </div>
+      </div>
+
+
+
+  </main>
+  <footer>
+    <div id="footer">
+      <div class="kontakt">
+        <h2>KONTAKT</h2>
+        <p>Varde Kommune</p>
+        <p>Bytoften 2, 6800 Varde</p>
+        <a href="tel:+4579946800">+45 79 94 68 00</a>
+        <a href="mailto:vardekommune@varde.dk?subject=Vedr.: Vrøgumby hjemmeside&body=Hej, jeg kontakter Varde kommune vedr. Vrøgum." >vardekommune@varde.dk</a></p>
+      </div>
+
+      <div class="icons">
+        <h2>SOCIALE MEDIER</h2>
+        <a href="https://www.instagram.com/explore/tags/vrøgum/"><img src="assets/images/instagram.png" alt="instagram"></a>
+        <a href="https://www.facebook.com/vroegum/"><img src="assets/images/facebook.png" alt="facebook"></a>
+      </div>
+    </div>
+
+    <div class="footerdesign">
+      <img src="assets/images/footerdesignweb.png" alt="vrogum by illustration">
+    </div>
+  </footer>
+
+</body>
+
+</html>

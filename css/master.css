@@ -1,0 +1,1194 @@
+body {
+    height: auto;
+    width: 100%;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+body button {
+  outline: none;
+}
+
+body a {
+  outline: none;
+  text-decoration: none;
+  color: white;
+}
+
+
+/* -------- 1. Navigationsbar --------- */
+
+header {
+    box-shadow: 0 0 10px 0 grey;
+    display: flex;
+    padding: 12px;
+    flex-direction: row;
+    position: fixed;
+    width: 100%;
+    justify-content: center;
+    margin: 0;
+    z-index: 9999;
+    background-color: white;
+    top: 0;
+}
+
+nav {
+    text-align: center;
+    display: flex;
+    padding-left: 30px;
+    flex-direction: row;
+    align-self: center;
+}
+
+nav ul {
+    display: block;
+    list-style-type: none;
+    margin: 10px;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-align: center;
+    line-height: normal;
+    text-decoration: none;
+    padding: 20px;
+    color: #000;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+li a:hover {
+    color: #5db255;
+}
+
+nav .current{
+  color: #5db255;
+}
+
+
+
+/* -------- 2. Transport --------- */
+
+#transportoverskrift {
+    font-size: 33px;
+    color: black;
+    margin-top: 150px;
+    margin-bottom: 50px;
+    text-align: center;
+    width: 100%;
+}
+
+.transportkasser {
+    display: flex;
+    flex-direction: row;
+}
+
+.box1 {
+    border: 1px grey;
+    width: 280px;
+    height: 210px;
+    font-size: 12px;
+    box-shadow: 0 0 10px 0 grey;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+}
+
+#bil {
+    padding-top: 10px;
+}
+
+.box2 {
+    border: 1px grey;
+    width: 280px;
+    height: 210px;
+    font-size: 12px;
+    box-shadow: 0 0 10px 0 grey;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+}
+
+#taxa {
+    padding-top: 10px;
+}
+
+.box3 {
+    border: 1px grey;
+    width: 280px;
+    height: 210px;
+    font-size: 12px;
+    box-shadow: 0 0 10px 0 grey;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+}
+
+#tog {
+    padding-top: 10px;
+}
+
+.transportkasser1 {
+    padding-top: 50px;
+    padding-bottom: 80px;
+    display: flex;
+    flex-direction: row;
+}
+
+.box1 {
+    border: 1px grey;
+    width: 280px;
+    height: 210px;
+    font-size: 12px;
+    box-shadow: 0 0 10px 0 grey;
+    margin: auto;
+    margin-right: 0;
+    padding: 10px;
+    text-align: center;
+}
+
+#bil {
+    padding-top: 10px;
+}
+
+.box2 {
+    border: 1px grey;
+    width: 280px;
+    height: 210px;
+    font-size: 12px;
+    box-shadow: 0 0 10px 0 grey;
+    margin-left: 80px;
+    margin-right: 80px;
+    padding: 10px;
+    text-align: center;
+}
+
+#taxa {
+    padding-top: 10px;
+}
+
+.box3 {
+    border: 1px grey;
+    width: 280px;
+    height: 210px;
+    font-size: 12px;
+    box-shadow: 0 0 10px 0 grey;
+    margin: auto;
+    margin-left: 0;
+    padding: 10px;
+    text-align: center;
+}
+
+#tog {
+    padding-top: 10px;
+}
+
+.transportkasser2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.box4 {
+    border: 1px grey;
+    width: 280px;
+    height: 210px;
+    font-size: 12px;
+    box-shadow: 0 0 10px 0 grey;
+    margin: auto;
+    margin-right: 0;
+    padding: 10px;
+    text-align: center;
+}
+
+#cykel {
+    padding-top: 10px;
+}
+
+.box5 {
+    border: 1px grey;
+    width: 280px;
+    height: 210px;
+    font-size: 12px;
+    box-shadow: 0 0 10px 0 grey;
+    margin-left: 80px;
+    margin-right: 80px;
+    padding: 10px;
+    text-align: center;
+}
+
+#parkeringsplads {
+    padding-top: 10px;
+}
+
+.box6 {
+    border: 1px grey;
+    width: 280px;
+    height: 210px;
+    font-size: 12px;
+    box-shadow: 0 0 10px 0 grey;
+    margin: auto;
+    margin-left: 0;
+    padding: 10px;
+    text-align: center;
+}
+
+#camping {
+    padding-top: 10px;
+}
+
+.subheadline {
+    font-weight: 700;
+    padding-top: 25px;
+    font-size: 20px;
+    margin: 0;
+}
+
+/* -------- 2.1 Kort --------- */
+
+#kort {
+    width: 60%;
+    height: 400px;
+    background-color: grey;
+    margin-left: 300px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#slogan {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 100;
+  font-style: italic;
+  font-size: 30px;
+  text-align: center;
+  color: white;
+  font-style: ;
+}
+
+.arrow {
+
+}
+
+#tolv, #enogtyve, #niogtyve {
+  color: #5db255;
+  font-size: 30px;
+}
+
+
+
+/* -------- 2. Aktiviteter --------- */
+
+.btn-secondary {
+  background-color: white;
+  color: #5DB255;
+  padding: 15px 70px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 20px 2px;
+  cursor: pointer;
+  border-radius: 10px;
+  top: 65%;
+  border: 1px solid white;
+}
+
+.btn-third {
+  line-height: normal;
+  color: #5DB255;
+  font-size: 20px;
+  border: none;
+  background-color: transparent;
+  padding: 0;
+}
+
+.btn-third:hover {
+  color: #86D37E;
+}
+
+#btn-secondary:hover {
+  background-color: #5DB255;
+  color: white;
+  border: 1px solid white;
+}
+
+#button-2 {
+  display: none;
+}
+
+#button-1 {
+  display: none;
+}
+
+#button-3 {
+  display: none;
+}
+
+#aktivitetsoverskrift {
+    font-size: 33px;
+    color: black;
+    margin-top: 150px;
+    margin-bottom: 20px;
+
+    width: 100%;
+
+}
+
+.aktivitetssektion {
+margin-bottom: 50px;
+}
+
+.aktivitetssektion p {
+  font-weight: 300;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: justify;
+  }
+
+  .inner {
+    padding-top: 20px;
+    text-align: center;
+    width: 80%;
+    margin:auto;
+    padding-bottom: 20px;
+  }
+
+.inner h1 {
+  font-size: 33px;
+}
+
+.month {
+
+    background: #5db255;
+    text-align: center;
+    width: 400px;
+
+}
+
+.calender2 h2 {
+  color: white;
+}
+
+#eventdescription p {
+  margin: 10px 20px;
+    text-align: justify;
+    color: white;
+    line-height: 30px;
+}
+
+#eventdescription h1 {
+  color: white;
+  text-decoration: underline;
+  font-size: 25px;
+
+}
+
+
+
+.event1 {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 9px 0px rgba(166, 166, 166, 1);
+    width: 414px;
+    margin-bottom: 25px;
+    padding-bottom: 20px;
+}
+
+.event1 h2 {
+    background-color: #5db255;
+    color: white;
+    margin: 0;
+    padding: 20px;
+}
+
+td  {
+  padding: 20px;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  font-size: 15px;
+  text-align: center;
+}
+
+th {
+  padding: 10px;
+font-size: 20px;
+}
+
+.calender2 {
+  display: flex;
+  flex-direction: row;
+  box-shadow: 0px 0px 9px 0px rgba(166, 166, 166, 1);
+
+      width: 70%;
+      margin: auto;
+      margin-bottom: 40px;
+}
+
+table {
+  margin-top: 25px;
+  margin-left: 20px;
+  padding-right: 40px;
+}
+
+.dato:hover {
+  cursor: pointer;
+  color: #90EE90;
+}
+
+
+#eventoverskrift {
+    font-size: 20px;
+    color: black;
+    margin-top: 150px;
+    margin-bottom: 50px;
+    text-align: center;
+    width: 100%;
+}
+#eventoverskrift1 {
+    font-size: 20px;
+    color: black;
+    margin-top: 150px;
+    margin-bottom: 50px;
+    text-align: center;
+    width: 100%;
+}
+#jul, #spisning, #fodbold, #oktoberfest {
+    width: 700px;
+height: 350px;
+
+}
+
+
+.event2 h4 {
+    background-color: white;
+    color: black;
+
+}
+
+.senesteevents {
+  background-color: rgba(134, 211, 126, 0.2);
+  padding: 50px;
+}
+
+.senesteevents h1 {
+  text-align: center;
+  font-size: 25px;
+}
+
+.event-pics {
+  padding-top: 50px;
+    width: 50%;
+    margin: auto;
+}
+
+#rank1, #rank2, #rank3, #rank4, #rank5 {
+    display: flex;
+    flex-direction: row;
+    padding-left: 5px;
+}
+
+.event1 p {
+    padding: 8px 10px;
+    margin: 0px;
+}
+
+#dato {
+    color: #5db255;
+}
+
+.top-half {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  width: 100%;
+}
+
+.calender, .kommendeevents {
+  margin: 0 100px;
+}
+
+.calender h1 {
+  font-size: 25px;
+  text-align: center;
+}
+
+/* -------- 3. Om Vrøgum --------- */
+
+#omoverskrift {
+    font-size: 33px;
+    color: black;
+    text-align: center;
+    width: 100%;
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+#ballonpark, #skoven, #fiskesoe, #station, #dengamleskole {
+    position: relative;
+}
+
+#ballonparkheadline, #fiskesoeheadline, #skovheadline, #stationheadline, #dengamleskoleheadline {
+  width: 100%;
+  text-align: center;
+}
+
+.widepics {
+    width: 100%;
+    display: block;
+}
+
+.names {
+    color: white;
+    font-size: 70px;
+    font-weight: 700;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 35%;
+}
+
+.btn-primary {
+    position: absolute;
+    background-color: #5DB255;
+    color: white;
+    padding: 15px 70px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+    top: 65%;
+    border: 1px solid#5DB255;
+}
+
+.btn-div {
+  width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-primary:hover {
+    background-color: white;
+    color: #5DB255;
+    border: 1px solid#5DB255;
+}
+
+/* -------- 4.1 Ballonpark underside -------- */
+  .articles {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(134, 211, 126, 0.2);
+  }
+
+  #slideromvroegum {
+    margin-top: 70px;
+  }
+
+  .slideshow {
+    width: 1200px;
+    position: relative;
+    margin: auto;
+    margin-top: 40px;
+  }
+
+  .slideshow1 {
+    margin: auto;
+    margin-top: 90px;
+    position: relative;
+    background-color: rgba(134, 211, 126, 0.2);
+  }
+
+  .imageslides {
+    animation-name: slideAnimation;
+    animation-duration: 2.5s;
+    display: none;
+  }
+
+  .imageslides2 {
+    animation-name: slideAnimation;
+    animation-duration: 2.5s;
+    display: none;
+  }
+
+  @keyframes slideAnimation {
+    from {
+      opacity: 0.4;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  .arrow-left,
+  .arrow-right {
+    position: absolute;
+    top: 42%;
+    padding: 25px;
+    cursor: pointer;
+  }
+
+  .arrow-right {
+    right: 0;
+  }
+
+  .arrow-left {
+    left: 0;
+  }
+
+  .arrow-left2,
+  .arrow-right2 {
+    position: absolute;
+    top: 42%;
+    padding: 25px;
+    cursor: pointer;
+  }
+
+  .arrow-right2 {
+    right: 0;
+  }
+
+  .arrow-left2{
+    left: 0;
+  }
+
+#index-headline {
+text-align: center;
+font-size: 50px;
+color: white;
+}
+
+.index-headline {
+background-color: rgba(134, 211, 126, 0.7);
+position: absolute;
+font-size: 50px;
+width: 70%;
+margin-left: auto;
+margin-right: auto;
+left: 0;
+right: 0;
+top: 20%;
+}
+
+.news {
+    width: 100%;
+    display: inline-block;
+}
+.news h1{
+
+  padding-top: 26px;
+  display: flex;
+  flex-direction: column;
+  font-size: 31px;
+}
+
+input[type="email"] {
+    width: 400px;
+    height: 40px;
+    border-radius: 25px;
+    border: none;
+    padding-left: 10px;
+    font-family: 'Source Sans Pro', serif;
+    font-weight: 400;
+    font-size: 15px;
+    margin-bottom: 20px;
+
+}
+
+
+
+input[type="submit"] {
+  background-color: #5DB255;
+  border: none;
+  height: 40px;
+  width: 130px;
+  margin-left: 20px;
+  border-radius: 25px;
+  color: white;
+  font-size: 15px;
+  font-family: 'Source Sans Pro', serif;
+  font-weight: 400;
+  outline: none;
+}
+
+form {
+  padding-top: 20px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+}
+
+
+
+.news-content h1{
+  font-family: 'Source Sans Pro', serif;
+  color: white;
+  font-weight: 700;
+  text-align: center;
+}
+
+.news-content p {
+  font-family: 'Source Sans Pro', serif;
+  color: white;
+  font-style: italic;
+  font-weight: 400;
+  text-align: center;
+}
+
+
+.scrolldown {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  top: 80%;
+  width: 50px;
+}
+
+  #articleheadline{
+
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: #107107;
+  }
+
+  #readmorearticle {
+    display: none;
+  }
+
+  .article-index {
+    margin: 0 52px;
+    padding-bottom: 30px;
+  }
+
+  #article-headline {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: #107107;
+    margin: 40px 0;
+    padding-left: 30px;
+  }
+
+.inner-elements {
+  margin: 10px auto 50px auto;
+  width: 1200px;
+  display: flex;
+  flex-direction: row;
+}
+
+.eventimg p {
+  font-weight: 700;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.eventimg {
+  background-color: white;
+  margin: 0 10px;
+}
+
+.eventimg:hover {
+    box-shadow: 0px 0px 9px 0px rgba(166, 166, 166, 1);
+}
+
+#elemwithpics {
+  margin-top: 70px;
+}
+
+.inner-text {
+  flex-direction: column;
+  background-color: white;
+  width: 4000px;
+}
+
+.paragraph-article {
+  margin: 40px 0;
+  padding: 0 30px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 40px;
+  text-align: justify;
+}
+
+.sidebar-article {
+  background-color: #86D37E;
+  display: flex;
+  flex-direction: column;
+  width: 1500px;
+  height: 295px;
+  margin-left: 20px;
+}
+
+.sidebar-article a {
+  text-decoration: none;
+  padding: 20px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: white;
+}
+
+.sidebar-article a:hover {
+  background: #5DB255 ;
+}
+
+.sidebar-article a:active {
+  background: white;
+  color: #86D37E;
+}
+.sidebar-article1 {
+  background-color: #86D37E;
+  display: flex;
+  flex-direction: column;
+  width: 1500px;
+  height: 355px;
+  margin-left: 20px;
+  margin-top: 50px;
+}
+
+.sidebar-article1 a {
+  text-decoration: none;
+  padding: 20px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 200;
+  font-size: 15px;
+  color: white;
+}
+
+.sidebar-article1 a:hover {
+  background: #5DB255;
+}
+
+.sidebar-article1 a:active {
+  background: white;
+  color: #86D37E;
+}
+
+/* -------- 4.1 Ballonpark underside -------- */
+.skoven, .station, #fiskesoe1, #dengamleskole1{
+  width: 1200px;
+  margin: auto;
+  margin-top: 110px;
+}
+
+.billede {
+  animation-name: slideAnimation;
+  animation-duration: 2.5s;
+  overflow-x: hidden;
+}
+
+
+
+/* -------- 4. Erhverv --------- */
+
+#erhvervoverskrift {
+    font-size: 33px;
+    color: black;
+    margin-top: 150px;
+    margin-bottom: 50px;
+    text-align: center;
+    width: 100%;
+}
+
+.erhvervkasser {
+    display: flex;
+    flex-direction: column;
+}
+
+.vrogum {
+    display: flex;
+    flex-direction: row;
+    margin-top: 400px;
+    width: 60%;
+    margin: 200px auto 20px auto;
+    box-shadow: 0px 0px 9px 0px rgba(166, 166, 166, 1);
+}
+
+#loppe {
+    display: block;
+}
+
+.vrogumtekst {
+    line-height: 40px;
+    text-align: center;
+}
+
+.vrogumtekst h3 {
+    color: #5DB255;
+}
+
+#salon {
+    display: block;
+}
+
+.erhvervkasser2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.vrogum2 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 400px;
+    width: 60%;
+    margin: 0 auto 20px auto;
+    box-shadow: 0px 0px 9px 0px rgba(166, 166, 166, 1);
+}
+
+.vrogumtekst2 {
+    line-height: 40px;
+    text-align: center;
+}
+
+.vrogumtekst2 h3 {
+    color: #5DB255;
+}
+
+#mekaniker {
+    display: block;
+}
+
+.erhvervkasser3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.vrogum3 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 400px;
+    width: 60%;
+    margin: 0 auto 20px auto;
+    box-shadow: 0px 0px 9px 0px rgba(166, 166, 166, 1);
+}
+
+.vrogumtekst3 {
+    line-height: 40px;
+    text-align: center;
+}
+
+.vrogumtekst3 h3 {
+    color: #5DB255;
+}
+
+.vrogumtekst, .vrogumtekst2, .vrogumtekst3, .vrogumtekst4 {
+  width: 50%;
+  margin:auto;
+}
+
+#soberriget {
+    display: block;
+}
+
+.erhvervkasser4 {
+    display: flex;
+    flex-direction: column;
+}
+
+.vrogum4 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 400px;
+    width: 60%;
+    margin: 0 auto 70px auto;
+    box-shadow: 0px 0px 9px 0px rgba(166, 166, 166, 1);
+}
+
+.vrogumtekst4 {
+    line-height: 40px;
+    text-align: center;
+}
+
+.vrogumtekst4 h3 {
+    color: #5DB255;
+}
+
+/* -------- 5. Footer --------- */
+
+
+
+#footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #86D37E;
+    color: white;
+
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.kontakt {
+    margin-left: 60px;
+    padding-top: 20px;
+    margin-bottom: 70px;
+    display: flex;
+    flex-direction: column;
+}
+
+.kontakt p, .kontakt a {
+  margin: 10px 0;
+  z-index: 1;
+}
+
+.kontakt a:hover {
+  opacity: 0.6;
+}
+
+.icons {
+    margin-right: 60px;
+    padding-top: 20px;
+}
+
+.footerdesign {
+    margin-top: -170px;
+}
+
+#footerdesign {
+    display: block;
+}
+
+
+/* -------- 6. Navbar på transportsider --------- */
+
+.navtransport {
+    width: 240px;
+    position: fixed;
+    z-index: 1;
+    background: #86D37E;
+    overflow-x: hidden;
+    top: 150px;
+    left: 20px;
+}
+
+.navtransport a {
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #5DB255;
+}
+
+.navtransport ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+.navtransport li a  {
+  margin-top: 40px;
+
+}
+
+.tog1 {
+    font-size: 20px;
+    color: black;
+    margin-top: 150px;
+    margin-bottom: 50px;
+    text-align: center;
+    width: 100%;
+}
+
+.teksttog {
+    font-size: 18px;
+    width: 500px;
+    padding-left: 465px;
+}
+.bil1{
+    margin: 110px auto 50px auto;
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+  }
+
+#tekstbil{
+  font-size: 18px;
+  width: 500px;
+  padding-left: 465px;
+}
+.maps{
+  display: flex;
+  flex-direction: column;
+}
+
+.taxa1{
+  font-size: 20px;
+  color: black;
+  margin-top: 150px;
+  margin-bottom: 50px;
+  text-align: center;
+  width: 40%;
+  margin-left: 400px;
+}
+
+.cykel1{
+  font-size: 20px;
+  color: black;
+  margin-top: 150px;
+  margin-bottom: 50px;
+  text-align: center;
+  width: 40%;
+  margin-left: 400px;
+}
+/* -------- 6. Navbar på transportsider --------- */
+#nyhederoverskrift {
+    font-size: 60px;
+    padding-top: 50px;
+    text-align: center;
+    width: 100%;
+    margin-top: 0;
+    color: #107107;
+}
+
+
+.nyhed1{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.nyhed1 img {
+  align-self: center;
+}
+
+.nyhed1kasse{
+  position: absolute;
+  background-color: #86D37E;
+  color: white;
+  padding: 20px;
+  width: 760px;
+  opacity: 0.8;
+}
+
+#error {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 700;
+}
