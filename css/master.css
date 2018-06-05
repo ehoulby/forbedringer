@@ -12,11 +12,6 @@ body button {
   outline: none;
 }
 
-body a {
-  outline: none;
-  text-decoration: none;
-  color: white;
-}
 
 
 /* -------- 1. Navigationsbar --------- */
@@ -370,10 +365,18 @@ margin-bottom: 50px;
     width: 400px;
 
 }
+.month1 {
+
+    background: #5db255;
+    text-align: center;
+    width: 400px;
+
+}
 
 .calender2 h2 {
   color: white;
 }
+
 
 #eventdescription p {
   margin: 10px 20px;
@@ -1067,6 +1070,12 @@ footer {
 #footerdesign {
     display: block;
 }
+footer a {
+  outline: none;
+  text-decoration: none;
+  color: white;
+}
+
 
 
 /* -------- 6. Navbar på transportsider --------- */
@@ -1191,4 +1200,11 @@ footer {
 #error {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 700;
+}
+
+#kalenderknap a{
+  text-align: center;
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
 }
